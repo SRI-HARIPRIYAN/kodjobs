@@ -5,12 +5,6 @@ const JobCard = ({ job }) => {
 		locations,
 		publication_date,
 		refs,
-		levels,
-		salary,
-		posted_days_ago,
-		expired_days_ago,
-		skills,
-		status,
 	} = job;
 
 	const formatDate = (dateString) => {

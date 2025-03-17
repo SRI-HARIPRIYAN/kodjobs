@@ -3,7 +3,6 @@
 	"theme": {
 		"extend": {
 			"fontFamily": {
-				"custom": ["'Poppins'", "sans-serif"],
 				"roboto": ["'Roboto'", "sans-serif"]
 			}
 		}
