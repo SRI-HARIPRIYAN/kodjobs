@@ -3,8 +3,8 @@ import { useNavigate, Link } from "react-router-dom";
 import usersData from "../assets/users.js";
 
 const Login = () => {
-	const [username, setUsername] = useState("");
-	const [password, setPassword] = useState("");
+	const [username, setUsername] = useState("user");
+	const [password, setPassword] = useState("user@123");
 	const navigate = useNavigate();
 
 	const handleLogin = (e) => {
@@ -47,7 +47,7 @@ const Login = () => {
 					</button>
 				</form>
 				<p className="text-center text-gray-500">
-					Don't have an account? {" "}
+					Don't have an account?{" "}
 					<Link to="/signup" className="text-purple-500 hover:underline">
 						Sign up
 					</Link>

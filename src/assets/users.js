@@ -1,8 +1,8 @@
 const users = [
 	{
-		username: "shree",
-		email: "shree@email.com",
-		password: "123",
+		username: "user",
+		email: "user@email.com",
+		password: "user@123",
 	},
 ];
 export default users;
